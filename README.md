@@ -39,11 +39,11 @@ abrir la consola de administracion de paquetes encontrada en Herramientas y ejec
 Puedes utilizar Postman o Swagger para probar los endpoints de la API. A continuación, se detallan los endpoints desarrollados:
 
 Endpoints desarrollados:
-POST /api/Clientes: Crea un nuevo cliente.
-GET /api/Clientes: Obtiene todos los clientes.
-GET /api/Clientes/{id}: Obtiene un cliente por ID.
-PUT /api/Clientes/{id}: Actualiza un cliente existente.
-DELETE /api/Clientes/{id}: Elimina un cliente
+- POST /api/Clientes: Crea un nuevo cliente.
+- GET /api/Clientes: Obtiene todos los clientes.
+- GET /api/Clientes/{id}: Obtiene un cliente por ID.
+- PUT /api/Clientes/{id}: Actualiza un cliente existente.
+- DELETE /api/Clientes/{id}: Elimina un cliente
 
 # Hosting
 La API ha sido desplegada en un hosting y está disponible en el siguiente enlace:
