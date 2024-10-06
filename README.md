@@ -53,3 +53,12 @@ La API ha sido desplegada en un hosting y está disponible en el siguiente enlac
 El diagrama de entidad-relación que muestra la estructura de las tablas y sus relaciones
 se encuentra en la carpeta docs del proyecto.
 
+# Ejemplo para actualizar (PUT) un cliente:
+Para actualizar un cliente, se puede utilizar el siguiente cuerpo de la solicitud:
+{
+    "clienteID": "id_del_cliente_a_actualizar",
+    "Nombre": "Nuevo Nombre",
+    "Correo": "nuevo_correo@example.com",
+    "Telefono": "nuevo_numero_de_telefono"
+}
+
